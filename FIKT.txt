@@ -1,0 +1,46 @@
+@@@		GitHub		@@@
+
+Install git bash 
+	https://git-for-windows.github.io/
+	
+1. Fork
+	На github na dadobt izbiras fork --> https://github.com/dadobt/FIKT1
+2. Clone
+	* Clone or download (github) --> copy address
+	* vo git bash
+		1) izbiras folder na laptop prajs git init --> go inicijalizira folderot deka e git
+		2) git clone address --> praj clone na repository od github kaj vas lokalno
+		3) vnesvas username i pass 
+		4) git status --> gi prikazva site promeni vo folderot koj sto se raboti
+		5) git pull --> gi zema site promeni na odreden file(primer ako rabotite na ist file poke luge vo primerot hello.txt gi zemate promenite na drugiot i posle vrz niv editirate)
+		6) git add . --> gi dodadva site files so se editirani, gi dodava vo lokalnoto repository
+		7) git commit -m "First commit on github(Vasa message tuka)" --> gi dodava vo stage faza 
+		8) git push origin master --> gi dodava na server(github) repository
+		
+@@@		HINTS		@@@
+	* Ako nekoj saka da praj PUSH obavezno prvo da proveri dali ima promeni na toj file i da gi prevzemi niv 
+	
+@@@		Korisni raboti		@@@
+1. Mock data
+	* Data sto se koristi za rabotenje, bidejki vo ovaja faza na proektot nemame bazi
+
+2. Sekoj ke treba da si napraj svoj folder
+	* Tuka ke gi klavate resenijata od to so ke gi imate spored tutorial
+
+@@@		Trello stuff		@@@ --> BITEN DEL DA SE ZNAT PROCESITE (product backlog, sprint backlog, .....)
+Sto e sprint?
+	* Sprint se definira na 1/2/3 nedeli vo zavisnost od dogovor na timot
+	* Najcesto e 2 nedeli, nas ke ni bidi 1 za podobra organizacija
+	
+Product backlog
+	* Tuka ke stojat site tasks za celata aplikacija sto postojat
+Spring backlog
+	* Tuka ke stojat site tasks sto ke treba da se naprat za eden sprint(edna nedela)
+In progress
+	* Tuka ke stojat site tasks sto momentalno se rabotat i ke treba da se dodavate kako sto vi pokazvase dadobt
+Code review
+	* Odkako site sto ke se zavrsi taskot prajte push i tuka nie prajme code review i posle komentirame koj del od kodot e dobar koj e los
+Testing
+	* Ovaja faza e ko ke ja imame napraeno aplikacijata i ko ke mozi veke nesto realno da se testira
+Done
+	* Tuka vlegvat site zavrseni tasks za odreden sprint
